@@ -95,8 +95,10 @@ if __name__ == "__main__":
 
     # check folders and files
     error_string = ""
-    tracks_dir = "../recorded_trackfiles"
-    maps_dir = "../maps"
+    # tracks_dir = "../recorded_trackfiles"
+    tracks_dir = "/home/richardkxu/DATA/INTERACTION-Dataset/INTERACTION-Dataset-DR-v1_0/recorded_trackfiles"
+    # maps_dir = "../maps"
+    maps_dir = "/home/richardkxu/DATA/INTERACTION-Dataset/INTERACTION-Dataset-DR-v1_0/maps"
     lanelet_map_ending = ".osm"
     lanelet_map_file = maps_dir + "/" + args.scenario_name + lanelet_map_ending
     scenario_dir = tracks_dir + "/" + args.scenario_name
